@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.railway_font{
+ font-family: "Raleway", sans-serif;
+}
+.inter_font{
+  font-family: "Inter", sans-serif;
+}
+.heading_text{
+ font-family: "Raleway", sans-serif;    
+font-size: 40px;
+font-weight: 600;
+line-height: 120%;
+}
+.paragraph_text{ 
+font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+opacity: 70%;
+color: #ffffff;
+}
+.card_heading{
+font-family: "Raleway", sans-serif; 
+font-size: 24px;
+font-weight: 600;
+line-height: 150%;
+color: #ffffff;
+}
+.card_hover:hover .cards_icons svg path{
+    fill:#000000 !important;
+}
+.card_hover:hover .cards_icons {
+     background-color: #F7B103;
+}
+.card_hover:hover{
+  background-color: #0C0900;
+}
+.paries_tower {
+  background-image: url(/assets/images/png/tower-img.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  align-items: end baseline;
+}
+.Bankok_tower {
+  background-image: url(/assets/images/png/banok-tower.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  align-items: end baseline;
+}
+.landon_tower {
+  background-image: url(/assets/images/png/landon-tower.png);
+  background-repeat: no-repeat;
+  background-size: 364px;
+  align-items: end baseline;
+}
+.first_slider .slick-list .slick-track {
+  display: flex;
+  gap: 20px;
+  max-width: 1140px !important;
+  width: 100% !important;
+}
+.first_slider .slick-prev::before {
+  content: url(../images/svg/prev-arrow.svg) !important;
+  font-size: 20px !important;
+}
+.first_slider .slick-next::before {
+  content: url(../images/svg/next.svg) !important;
+  font-size: 20px !important;
+}
+.first_slider .slick-next {
+  right: -40px !important;
+}
+.first_slider .slick-prev {
+  left: -40px !important;
+}
+.second_slider .slick-list .slick-track {
+  display: flex;
+  gap: 20px;
+}
+.next:hover path {
+  fill: black;
+}
+.prev:hover path {
+  fill: black;
+}
+.border_linear{
+  border: 1px solid !important;
+border-image-source: linear-gradient(180deg, #F7B103 0%, rgba(247, 177, 3, 0) 100%) !important;
+}
